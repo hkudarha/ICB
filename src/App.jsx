@@ -11,6 +11,10 @@ import Card from './Components/Card'
 import FAQSection from './Components/FAQSection'
 import UpcomingEvents from './Components/UpcomingEvents'
 import AnimatedGLB from './Components/AnimatedGLB'
+import MediaPartnersSpotlight from './Components/MediaPartnersSpotlight'
+import PartnersSection from './Components/PartnersSection'
+import NewsletterSignup from './Components/NewsletterSignup'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -22,8 +26,13 @@ function App() {
   {/* <ICBLabsEcosystem/> */}
   <Card/>
   <UpcomingEvents/>
+  <PartnersSection/>
+  <MediaPartnersSpotlight/>
   <FAQSection/>
+
 <Contact/>
+<NewsletterSignup/>
+<Footer/>
 
       {/* <AnimatedGLB />  */}
     </>

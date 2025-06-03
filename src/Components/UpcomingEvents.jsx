@@ -41,10 +41,7 @@ const UpcomingEvents = () => {
     return (
         <>
             <div className="text-center mt-8 ">
-                <div className="inline-block  bg-purple-900/50 rounded-full py-4  px-4 border border-purple-500/30 mb-4 animate-pulse">
-                    <span className="text-purple-300 text-sm font-medium tracking-wider capitalize">UPCOMMING EVENTS</span>
-                </div>
-
+                <div className="text-xs text-purple-400 tracking-widest mb-4 uppercase">UPCOMMING EVENTS</div>
                 <h3 className="text-[2rem] font-bold mb-4 bg-gradient-to-r from-white via-purple-200 to-purple-400 bg-clip-text text-transparent animate-fade-in">
                     Catch Us Around The World
 

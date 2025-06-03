@@ -46,10 +46,8 @@ function Card() {
     <>
 
      <div className="text-center ">
-          <div className="inline-block  bg-purple-900/50 rounded-full py-2 px-4 border border-purple-500/30 mb-4 animate-pulse">
-            <span className="text-purple-300 text-sm font-medium tracking-wider">OUR ECOSYSTEM</span>
-          </div>
           
+          <div className="text-xs text-purple-400 tracking-widest mb-4 uppercase">OUR ECOSYSTEM</div>
           <h3 className="text-[2rem] font-bold mb-4 bg-gradient-to-r from-white via-purple-200 to-purple-400 bg-clip-text text-transparent animate-fade-in">
            ICB Labs Ecosystem
           </h3>
@@ -60,7 +58,7 @@ function Card() {
           </p>
         </div>
     
-    <div className="grid grid-cols-3  gap-4 px-[4rem] ">
+    <div className="grid sm:grid-cols-3 grid-cols-1  gap-[3rem]  px-[2rem]  mx-auto overflow-hidden ">
       {cardsData.map((card, index) => (
         <div key={index} className="card my-[2rem]">
           <div className="corner">

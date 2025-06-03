@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import Logo from '../assets/logo.png'
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="relative">
       {/* Main Header */}
-      <header className="fixed top-0 left-0 w-full z-50 bg-[##010001] overflow-hidden backdrop-blur-md">
+      <header className="bg-[##010001] relative overflow-hidden backdrop-blur-md">
         {/* Glowing background effects */}
         <div className="absolute inset-0">
           <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl animate-pulse"></div>
@@ -21,20 +21,15 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <div className="flex items-center space-x-3">
-              <div className="relative">
-                {/* 3D Cube Logo */}
-                <div className="w-12 h-12 relative transform rotate-12 hover:rotate-0 transition-transform duration-300">
-                  {/* Cube faces */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-blue-500 rounded-lg shadow-lg transform skew-y-12 skew-x-12"></div>
-                  <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-500 rounded-lg shadow-lg transform translate-x-2 translate-y-2 skew-y-6"></div>
-                  <div className="absolute inset-0 bg-gradient-to-br from-purple-300 to-blue-400 rounded-lg shadow-lg"></div>
-                  {/* Glowing effect */}
-                  <div className="absolute inset-0 bg-purple-400/50 rounded-lg blur-md animate-pulse"></div>
-                </div>
-              </div>
+              {/* Logo Image */}
+              <img
+                src={Logo}
+                alt=""
+                className="w-[10rem] object-contain"
+                draggable={false}
+              />
               <div className="text-white font-bold text-xl tracking-wide">
-                <span className="text-purple-300">ICB</span>
-                <span className="ml-1">LABS</span>
+
               </div>
             </div>
 
@@ -107,7 +102,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Drawer */}
       <div 
-        className={`fixed top-0 right-0 h-full w-80 bg-transparent backdrop-blur-md z-50 transform transition-transform duration-300 md:hidden ${
+        className={`fixed top-0 right-0 h-full w-80 bg-purple-950 backdrop-blur-md z-50 transform transition-transform duration-300 md:hidden ${
           isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
