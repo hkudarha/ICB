@@ -7,7 +7,7 @@ import { div } from "three/tsl";
 const eventsData = [
     {
         status: "COMPLETED",
-        logo: "/logos/blockchain.png",
+        logo: "https://icblabs.com/assets/blockchainforum-D5IJRnuK.svg",
         status: "Completed",
         location: "MOSCOW",
         date: "23–24 APRIL 2025",
@@ -17,7 +17,7 @@ const eventsData = [
     },
     {
         status: "COMPLETED",
-        logo: "/logos/cryptoexpo.png",
+        logo: "https://icblabs.com/assets/cryptoexpodubai-7rr6Ho1D.png",
         status: "Completed",
         location: "DUBAI",
         date: "21–22 MAY 2025",
@@ -27,7 +27,7 @@ const eventsData = [
     },
     {
         status: "UPCOMING",
-        logo: "/logos/wow.png",
+        logo: "https://icblabs.com/assets/wowsummit-DGPPGCg8.png",
         status: "UpComming",
         location: "HONG KONG",
         date: "28–29 MAY 2025",
