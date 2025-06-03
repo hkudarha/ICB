@@ -7,18 +7,18 @@ const FAQSection = () => {
   const faqData = [
     {
       id: 1,
-      question: "What is ICB Labs?",
-      answer: "ICB Labs is a blockchain ecosystem helping businesses transition from Web2 To Web3. It includes ICB Network (Layer-1 blockchain), ICB Verse (Metaverse), NFT Talent (NFT marketplace), and ICB KYC (decentralized identity verification)"
+      question: "What is Cosmic AI ?",
+      answer: "Cosmic AI  is a blockchain ecosystem helping businesses transition from Web2 To Web3. It includes ICB Network (Layer-1 blockchain), ICB Verse (Metaverse), NFT Talent (NFT marketplace), and ICB KYC (decentralized identity verification)"
     },
     {
       id: 2,
-      question: "Who founded ICB Labs?",
-      answer: "ICB Labs was founded by a team of blockchain experts and entrepreneurs dedicated to creating innovative Web3 solutions for businesses and individuals."
+      question: "Who founded Cosmic AI ?",
+      answer: "Cosmic AI  was founded by a team of blockchain experts and entrepreneurs dedicated to creating innovative Web3 solutions for businesses and individuals."
     },
     {
       id: 3,
-      question: "What industries does ICB Labs impact?",
-      answer: "ICB Labs impacts multiple industries including finance, education, gaming, digital art, real estate, supply chain, and enterprise solutions through its comprehensive blockchain ecosystem."
+      question: "What industries does Cosmic AI  impact?",
+      answer: "Cosmic AI  impacts multiple industries including finance, education, gaming, digital art, real estate, supply chain, and enterprise solutions through its comprehensive blockchain ecosystem."
     },
     {
       id: 4,
@@ -27,8 +27,8 @@ const FAQSection = () => {
     },
     {
       id: 5,
-      question: "Which projects are developed by ICB Labs?",
-      answer: "ICB Labs has developed several key projects: ICB Network (blockchain infrastructure), ICB Verse (metaverse platform), NFT Talent (NFT marketplace), and ICB KYC (identity verification system)."
+      question: "Which projects are developed by Cosmic AI ?",
+      answer: "Cosmic AI  has developed several key projects: ICB Network (blockchain infrastructure), ICB Verse (metaverse platform), NFT Talent (NFT marketplace), and ICB KYC (identity verification system)."
     },
     {
       id: 6,

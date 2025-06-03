@@ -129,7 +129,7 @@ const BlockchainLanding = () => {
             </h2>
             
             <p className="text-xl text-gray-300 leading-relaxed">
-              At ICB Labs, we tackle blockchain challenges by delivering secure, scalable, and 
+              At  Cosmic AI, we tackle blockchain challenges by delivering secure, scalable, and 
               innovative solutions. Our mission is to:
             </p>
 
@@ -163,7 +163,7 @@ const BlockchainLanding = () => {
               
               <p className="text-xl text-gray-300 leading-relaxed">
                 We envision a world where blockchain serves as the backbone for trust, transparency, and 
-                financial freedom. At ICB Labs, we believe the future of decentralized technology is 
+                financial freedom. At  Cosmic AI, we believe the future of decentralized technology is 
                 already unfolding
               </p>
 
@@ -368,7 +368,7 @@ const BlockchainLanding = () => {
               </h2>
               
               <p className="text-xl text-gray-300 leading-relaxed">
-                ICB Labs empowering innovation through decentralization. We unite projects to provide 
+                 Cosmic AI empowering innovation through decentralization. We unite projects to provide 
                 transformative blockchain and metaverse solutions for businesses and users alike
               </p>
 

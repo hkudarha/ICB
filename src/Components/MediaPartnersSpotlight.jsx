@@ -43,10 +43,10 @@ const MediaPartnersSpotlight = () => {
           Our Media Partners
         </p>
         <h2 className="text-3xl md:text-5xl font-extrabold mb-4">
-          ICB Labs in the Spotlight
+          Cosmic AI  in the Spotlight
         </h2>
         <p className="text-sm md:text-base text-white/80">
-          Stay up to date with the latest news and industry recognition as ICB Labs gains global attention through leading media outlets.
+          Stay up to date with the latest news and industry recognition as Cosmic AI  gains global attention through leading media outlets.
         </p>
       </div>
 

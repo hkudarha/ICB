@@ -20,7 +20,7 @@ const ICBLabsHero = () => {
             {/* Main Title - t1 */}
             <div className="t1 text-6xl lg:text-8xl font-bold mb-8 leading-tight">
               <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent animate-gradient-x">
-                ICB Labs
+                Cosmic AI
               </span>
             </div>
 

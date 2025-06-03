@@ -4,8 +4,8 @@ const ICBLabsEcosystem = () => {
   const cards = [
     {
       id: 'network',
-      title: 'ICB Network',
-      subtitle: 'ICB NETWORK',
+      title: ' Cosmic AI Network',
+      subtitle: ' Cosmic AI NETWORK',
       description: 'A POS-based web 3 blockchain offering seamless transactions for users. It is powered to transform the digital industries.',
       gradient: 'from-blue-600 to-blue-800',
       icon: '🔷',
@@ -13,8 +13,8 @@ const ICBLabsEcosystem = () => {
     },
     {
       id: 'verse',
-      title: 'ICB Verse',
-      subtitle: 'ICB VERSE',
+      title: ' Cosmic AI Verse',
+      subtitle: ' Cosmic AI VERSE',
       description: 'A groundbreaking Metaverse city featuring cutting-edge gaming experiences with dynamic interactions, multiplayer connectivity and bridging gap between reality and digital world.',
       gradient: 'from-teal-600 to-teal-800',
       icon: '🎮',
@@ -31,8 +31,8 @@ const ICBLabsEcosystem = () => {
     },
     {
       id: 'kyc',
-      title: 'ICB KYC',
-      subtitle: 'ICB KYC',
+      title: ' Cosmic AI KYC',
+      subtitle: ' Cosmic AI KYC',
       description: 'A secure, efficient identity verification platform powered by NFT technology ensuring seamless user onboarding, compliance, trust, and streamlined KYC/AML processes.',
       gradient: 'from-green-600 to-green-800',
       icon: '✓',
@@ -40,9 +40,9 @@ const ICBLabsEcosystem = () => {
     },
     {
       id: 'dex',
-      title: 'ICB Dex',
-      subtitle: 'ICB DEX',
-      description: `Coming Soon\n\nA secure, decentralized ICB's trading that facilitates seamless cryptocurrency trading with enhanced security, user control over their transactions.`,
+      title: ' Cosmic AI Dex',
+      subtitle: ' Cosmic AI DEX',
+      description: `Coming Soon\n\nA secure, decentralized  Cosmic AI's trading that facilitates seamless cryptocurrency trading with enhanced security, user control over their transactions.`,
       gradient: 'from-yellow-600 to-yellow-800',
       icon: '📊',
       position: 'bottom-center',
@@ -50,8 +50,8 @@ const ICBLabsEcosystem = () => {
     },
     {
       id: 'game',
-      title: 'ICB Game',
-      subtitle: 'ICB GAME',
+      title: ' Cosmic AI Game',
+      subtitle: ' Cosmic AI GAME',
       description: 'Coming Soon\n\nA decentralized gaming platform that offers immersive experiences across multiple genres with Play-to-Earn mechanics and blockchain technology.',
       gradient: 'from-red-600 to-red-800',
       icon: '🎯',
@@ -116,7 +116,7 @@ const ICBLabsEcosystem = () => {
       <div className="text-center mb-16">
         <div className="text-purple-400 text-sm font-medium tracking-wider mb-4">OUR ECOSYSTEM</div>
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-          ICB Labs Ecosystem
+           Cosmic AI Labs Ecosystem
         </h1>
         <p className="text-gray-300 text-lg max-w-4xl mx-auto leading-relaxed">
           Our ecosystem of blockchain-based products powers seamless interactions, secure transactions, 
@@ -151,4 +151,4 @@ const ICBLabsEcosystem = () => {
   );
 };
 
-export default ICBLabsEcosystem;
+export default  ICBLabsEcosystem;

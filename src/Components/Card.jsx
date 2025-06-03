@@ -3,37 +3,37 @@ import img from "../assets/LeandingPage/icb-nft-mhLzBqd-.png";
 
 const cardsData = [
   {
-    title: "ICB Network",
+    title: "Cosmic AI Network",
     description:
       "A POS-based Layer-1 blockchain offering robust, efficient, and scalable solutions, poised to transform multiple industries.",
     image: img,
   },
   {
-    title: "ICB Network",
+    title: "Cosmic AI Network",
     description:
       "A POS-based Layer-1 blockchain offering robust, efficient, and scalable solutions, poised to transform multiple industries.",
     image: img,
   },
   {
-    title: "ICB Network",
+    title: "Cosmic AI Network",
     description:
       "A POS-based Layer-1 blockchain offering robust, efficient, and scalable solutions, poised to transform multiple industries.",
     image: img,
   },
   {
-    title: "ICB Network",
+    title: "Cosmic AI Network",
     description:
       "A POS-based Layer-1 blockchain offering robust, efficient, and scalable solutions, poised to transform multiple industries.",
     image: img,
   },
   {
-    title: "ICB Network",
+    title: "Cosmic AI Network",
     description:
       "A POS-based Layer-1 blockchain offering robust, efficient, and scalable solutions, poised to transform multiple industries.",
     image: img,
   },
   {
-    title: "ICB Network",
+    title: "Cosmic AI Network",
     description:
       "A POS-based Layer-1 blockchain offering robust, efficient, and scalable solutions, poised to transform multiple industries.",
     image: img,
@@ -49,7 +49,7 @@ function Card() {
           
           <div className="text-xs text-purple-400 tracking-widest mb-4 uppercase">OUR ECOSYSTEM</div>
           <h3 className="text-[2rem] font-bold mb-4 bg-gradient-to-r from-white via-purple-200 to-purple-400 bg-clip-text text-transparent animate-fade-in">
-           ICB Labs Ecosystem
+           Cosmic AI Ecosystem
           </h3>
           
           <p className="text-[1rem] text-gray-300 max-w-4xl mx-auto leading-relaxed">
